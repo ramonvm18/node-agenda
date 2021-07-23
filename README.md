@@ -1,0 +1,1 @@
+## projeto realizando um CRUD (create, read, update e delete) na base de dados mongo com sistema de login real usando sessions
