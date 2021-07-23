@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
 
-const LoginSchema = new mongoose.Schema({
+const HomeSchema = new mongoose.Schema({
   email: { type: String, required: true },
   senha: { type: String, required: true }
   
 });
 
-const LoginModel = mongoose.model('Login', LoginSchema);
+const HomeModel = mongoose.model('Home', HomeSchema);
 
-class Login {
+class Home {
 
 }
 
-module.exports = Loging;
+module.exports = Home;
